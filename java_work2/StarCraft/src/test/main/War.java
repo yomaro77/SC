@@ -9,19 +9,11 @@ public class War {
 		Marine mr = new Marine();
 		Zergling zg = new Zergling();
 
+		// 좌우 움직이기 : moveLR(좌, 우)
+		// 공격하기 : atk()
 
 		zg.moveLR(3, 0);
 		mr.moveLR(0, 1);
-		mr.moveLR(0, 1);
-		mr.moveLR(0, 1);
-		mr.moveLR(0, 1);
-		mr.moveLR(0, 1);
-		mr.moveLR(0, 1);
-		mr.atk();
-		mr.moveLR(0, 1);
-		mr.moveLR(0, 1);
-		mr.moveLR(0, 1);
-		zg.moveLR(0, 3);
 		
 
 		
